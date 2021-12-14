@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="form1.html">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="feedback" action="mailto:protubearjun@gmail.com" method="post">
+        <h2>Please fill in your details.</h2>
+        <label for="fname">First Name</label>
+        <input type="text" name='fname' id='fname' value="" required><br><br>
+        <label for="lname">Second Name</label>
+        <input type="text" name='lname' id='lname' value="" required><br><br>
+        <label for="email">E-mail adress</label>
+        <input type="text" name='email' id='email' value="" required><br><br>
+        <label for="gender">Select Gender</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name='gender' id='male' value="">
+        <label for="female">Female</label>
+        <input type="radio" name='gender' id='female' value=""><br><br>
+        <label for="hobbies">Select your hobbies.</label><br>
+        <input type="checkbox" name='hobbies' id='reading'>
+        <label for="reading">Reading</label>
+        <input type="checkbox" name='travelling' id='travelling'>
+        <label for="travelling">Travelling</label><br><br>
+
+        <label for="edu">Choose your course</label>&nbsp;&nbsp;
+        <select name="edu">
+            <option id="op1" name="op1" value="Scratch">Scratch</option>
+            <option id="op2" name="op2" value="Web Developmeant">Web Developmeant</option>
+            <option id="op3" name="op3" value="Python">Python</option>
+            <option id="op4" name="op4" value="Java">Java</option>
+        </select><br><br>
+        <label for="pswd">password</label>&nbsp;&nbsp;
+        <input type="password" id=pswd>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
